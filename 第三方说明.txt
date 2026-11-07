@@ -1,0 +1,15 @@
+本说明列出随包组件及其许可证位置。
+
+DyHub：https://github.com/ymstar/dyhub
+提交：3a79c57d85c59289db3b77211b3ec01fae47d42c
+选用浏览器采集、协议解码和事件标准化模块。MIT 原文与来源说明位于接收服务/douyin/browser-engine。
+
+Node.js：接收服务/NODE-LICENSE.txt。
+playwright-core、protobufjs、pako、long：各自 node_modules 包内保留原许可证；package.json 记录所用版本。
+Microsoft WebView2：厂商SDK/WebView2/LICENSE.txt。
+随包 SDK 许可证允许按条件分发，须保留版权、许可条件和免责声明，不以微软名义为本项目背书。WebView2 Runtime 使用其自身适用条款。
+AliRTC SDK：播出资源/aliyun-rtc-sdk.js，为原项目数字人播放所需厂商 SDK，使用及再分发须遵循其适用条款；本项目不将其重新许可为 MIT。
+
+AliRTC 官方文档：https://help.aliyun.com/zh/document_detail/71770.html 。官方说明涉及隐私告知和用户授权；仅保留本说明不代表已满足全部条件。当前未完成该 SDK 完整再分发条件核对。
+青蒿图经项目方确认可随本项目使用。项目整体的正式开源许可证另行确定；允许把源码交给自己的智能体分析和按个人需求修改，不以第三方许可代替整体许可。
+免费提供也须遵守适用许可。后续发现组件不符合分发条件时，应停止分发相关组件，并评估替换或移除；不能以事后下架代替当前需要遵守的条件。

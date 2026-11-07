@@ -1,0 +1,9 @@
+.git/
+node_modules/
+*.exe
+*.dll
+*.zip
+*.dpapi
+.env*
+*.log
+播出资源/aliyun-rtc-sdk.js
