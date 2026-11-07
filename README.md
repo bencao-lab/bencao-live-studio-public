@@ -6,7 +6,7 @@
 
 ## 下载与启动
 
-到 [测试版 Release](https://github.com/bencao-lab/bencao-live-studio-public/releases/tag/v0.1.0-test.1) 下载“bencao-live-studio-windows-test.zip”，完整解压后打开“直播台/本草收藏数字人直播台.exe”。
+到 [测试版 Release](https://github.com/bencao-lab/bencao-live-studio-public/releases/tag/v0.1.0-test.2) 下载“bencao-live-studio-windows-test.zip”，完整解压后打开“直播台/本草收藏数字人直播台.exe”。
 
 这是解压运行的测试包。需要 Windows x64、Microsoft Edge WebView2 Runtime。接收抖音互动还需要安装在系统标准路径的 Google Chrome。使用自己的数字人、对话和语音服务账号，具体操作见 [使用说明](使用说明.txt)。第三方服务可能收费。
 
@@ -29,4 +29,5 @@ Git 仓库保存源码、青蒿演示图、构建脚本与说明。运行依赖�
 项目整体正式许可证尚未确定。项目方允许把源码交给自己的智能体分析并按个人需求修改。青蒿演示图经项目方确认可随本项目使用。
 
 第三方组件保留各自许可证，详见 [第三方说明](第三方说明.txt)。AliRTC 完整再分发条件尚未核实，其适用条款和隐私授权要求仍需遵守。
+
 
