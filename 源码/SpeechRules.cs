@@ -15,11 +15,6 @@ public static class SpeechRules {
         string line=variant%2==0?"谢谢"+who+"的"+item:who+"，"+item+"收到啦";
         return line;
     }
-    public static string ContentAnswer(string reply,int minimum){
-        string line=(reply??"").Trim().Trim('“','”');
-        if(line.Length<minimum||line.Length>120||Regex.IsMatch(line,"谢谢|感谢|送礼|礼物|打赏|```|[{}]"))return "";
-        return line;
-    }
     public static string ShortAnswer(string reply,string comment){
         string line=Regex.Replace(reply??"",@"(^|[，。！？、\s])[啊哈哇诶呀嗯哦]+(?:[！!。，、～\s]+|$)","$1").Trim();
         line=Regex.Split(line,"[。！？!?\r\n]")[0].Trim(' ','，','：','“','”');

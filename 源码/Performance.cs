@@ -147,6 +147,10 @@ partial class Studio {
     bool choosingNatural;
     void RememberNatural(string kind,string text){
         if(lifetime.IsCancellationRequested||String.IsNullOrWhiteSpace(text)||Preferences.Muted(text))return;
+        if(kind=="主播说"){
+            spokenTurns.Enqueue(text);
+            while(spokenTurns.Count>Math.Max(1,Math.Min(8,memoryLength)))spokenTurns.Dequeue();
+        }
         naturalEvents.Enqueue(kind+"："+text.Substring(0,Math.Min(text.Length,180)));
         if(naturalEvents.Count>memoryLength)naturalEvents.Dequeue();UpdateBrainMemory();
         naturalVersion++;

@@ -18,10 +18,6 @@ partial class Studio {
     readonly ListBox giftsSeen=new ListBox{Dock=DockStyle.Fill};
     long giftItems,giftSpoken,giftEntries;
     bool reserveSmall;
-    int contentTurnsDue;
-    bool GiftTurnDue(){
-        return thanks.Exists(g=>g.Tier==2)||(thanks.Count>0&&(contentTurnsDue==0||(latestComment==null&&pendingTests.Count==0)));
-    }
     GiftThanks currentGift;
     void TrackGift(GiftThanks gift){
         List<GiftThanks> list;

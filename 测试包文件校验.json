@@ -1411,13 +1411,18 @@
   },
   {
     "path": "源码/GiftBrain.cs",
-    "sha256": "6d2053e3230d9ea5d78a92f2908360ff34395970e6dc36700d2ae19bd9b9bd6c",
-    "bytes": 4496
+    "sha256": "0a5aeef32f00bfdbcf16efd169c46f1cd3923349ec2fe6b01b19f03b45173b24",
+    "bytes": 4311
   },
   {
     "path": "源码/Interaction.cs",
-    "sha256": "32bce7025d697602a91ce95d0bd867919891e34310442663e5298b630ec3e51a",
-    "bytes": 11673
+    "sha256": "b9c5645c57f009c79aaf9b6f6fac50af402af78a882e1a9e9daf15f2bc206ca6",
+    "bytes": 11114
+  },
+  {
+    "path": "源码/LiveTurn.cs",
+    "sha256": "0684724eadff730987a4cd41f5260940a59dc5f44fcb0d7ea255e7d3cfd851e9",
+    "bytes": 10731
   },
   {
     "path": "源码/LiveView.cs",
@@ -1431,8 +1436,8 @@
   },
   {
     "path": "源码/Performance.cs",
-    "sha256": "dc3cbdf5e9e5ecef09c4c6c1d0f0e6421bf5301d0de673c20df4bda7bdcd725a",
-    "bytes": 13971
+    "sha256": "6c890550d5b94071f5df32f73acbfc0a3d2c3a510a5772e77b2e7083c24fc767",
+    "bytes": 14151
   },
   {
     "path": "源码/Preferences.cs",
@@ -1456,13 +1461,13 @@
   },
   {
     "path": "源码/SpeechRules.cs",
-    "sha256": "64bded3803360b067e422d8d0eb3abdb3431b8df8d12e6b1d2752687d7d5a115",
-    "bytes": 1853
+    "sha256": "ee349728859f4f2552d60fb2e3eab841afec1ed456768ee59615bad772b5e977",
+    "bytes": 1571
   },
   {
     "path": "源码/Studio.cs",
-    "sha256": "2324e73d2a537fad00745c3937adb8bb2dc48e37f16bf1bffddf4e34730e9379",
-    "bytes": 41415
+    "sha256": "a7456bfbe112d808a031081beb9e7c15fcd8e7ebde85ba53ce256a932ddad3ab",
+    "bytes": 34249
   },
   {
     "path": "源码/Vidu.cs",
@@ -1471,8 +1476,8 @@
   },
   {
     "path": "直播台/本草收藏数字人直播台.exe",
-    "sha256": "ddec5e84d4e7b7464348e96f0586f7335b36495ed90b4c273a5ad07d958e6b00",
-    "bytes": 173568
+    "sha256": "f993188f6a24bd9b8dcfcf56c346e0f03939abd6fa616785df62b2e4dcc23a2b",
+    "bytes": 179200
   },
   {
     "path": "直播台/Microsoft.Web.WebView2.Core.dll",
